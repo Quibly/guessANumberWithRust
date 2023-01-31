@@ -1,10 +1,10 @@
 # Overview
 
-{Important! Do not say in this section that this is college assignment. Talk about what you are trying to accomplish as a software engineer to further your learning.}
+This is a program I wrote to familiarize myself better with the Rust programming language. I'm working to strengthen my skills as a Software Developer major at BYU-Idaho.
 
-{Provide a description of the software that you wrote to demonstrate the Rust language.}
+The software I've written here is a small game of Guess a Number. After the user enters some input to start the game, the program gives the user hints of "higher" or "lower" to help them guess the correct number. Once the user guesses the correct number, the game is over, and the user wins.
 
-{Describe your purpose for writing this software.}
+The purpose for this software is to use and display examples of variables, expressions, conditionals, loops, and functions in the Rust language. It should provide a simple example of how the language works and is displayed.
 
 {Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
 

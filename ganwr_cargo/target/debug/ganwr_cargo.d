@@ -1,0 +1,1 @@
+C:\Quibly\School\Applied\ Programming\Sprint\ 2\guessANumberWithRust\ganwr_cargo\target\debug\ganwr_cargo.exe: C:\Quibly\School\Applied\ Programming\Sprint\ 2\guessANumberWithRust\ganwr_cargo\src\main.rs
