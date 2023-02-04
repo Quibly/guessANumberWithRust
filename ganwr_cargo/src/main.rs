@@ -11,8 +11,6 @@ impl GameObject{
     fn create(x: i32) -> GameObject {
         let y: i32 = rand::thread_rng().gen_range(1..=x);
 
-        println!("The secret number is: {}", &y);
-
         GameObject { guess: 0, guesses: Vec::new(), secret_number: y }
     }
 }
@@ -20,6 +18,7 @@ impl GameObject{
 impl GameObject {
     //Method to get the high number of the range to guess from
     fn get_high_number() -> i32 {
+        println!();
         println!("Please input a range of numbers to guess between.");
 
         println!("Low number will be 1. What do you want a high number to be?");
@@ -40,32 +39,33 @@ impl GameObject {
     }
 }
 
-fn main() {
-    // Initialize the program by getting the range the user wants to guess in.
-    
-    let mut game_build = setup();
-
-    // Start main loop for guessing and check for correct guess.
-    // If the user guesses correctly then the program will end.
-    loop {
-
-        game_build.guess = get_guess();
-        game_build.guesses.push(game_build.guess);
-
-        if game_build.guess == game_build.secret_number {
-        
-            println!("You guessed the secret number {}. You win!", game_build.secret_number);
-        
-            break;
-        }
-
-        compare_guess_and_secret(&game_build.guess, &game_build.secret_number);
-    }
-
+impl GameObject {
     //Function to setup new object
     fn setup() -> GameObject {
         let high_number : i32 = GameObject::get_high_number();
         GameObject::create(high_number)
+    }
+}
+
+impl GameObject {
+    //Module to loop guesses for gameplay
+    fn loop_game_guesses(game:&mut GameObject) -> &mut GameObject {
+        // If the user guesses correctly then the program will end.
+        loop {
+
+            game.guess = GameObject::get_guess();
+            game.guesses.push(game.guess);
+
+            if game.guess == game.secret_number {
+            
+                println!("You guessed the secret number {}. You win!", game.secret_number);
+            
+                break;
+            }
+
+            GameObject::compare_guess_and_secret(&game.guess, &game.secret_number);
+        }
+        return game;
     }
 
     // Function to compare the guess and the secret number.
@@ -95,5 +95,22 @@ fn main() {
 
         return guess_num;
     }
+}
+
+impl GameObject {
+    fn show_game_stats(game:&mut GameObject) {
+        println!("You found the secret number in {} guesses.", game.guesses.len());
+        println!("Guesses: {:?}", game.guesses);
+        println!();
+    }
+}
+
+fn main() {
+    // Initialize the program by getting the range the user wants to guess in.
+    let mut game_build = GameObject::setup();
+    // Start main loop for guessing and check for correct guess.
+    let mut game_build = GameObject::loop_game_guesses(&mut game_build);
+    // Print results of game
+    GameObject::show_game_stats(&mut game_build);
 
 }
