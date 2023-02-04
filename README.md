@@ -12,21 +12,23 @@ The purpose for this software is to use and display examples of variables, expre
 
 # Development Environment
 
-{Describe the tools that you used to develop the software}
+This was developed using VS Code and with the help of Cargo for crate management.
 
-{Describe the programming language that you used and any libraries.}
+I used the Rust program with a rand dependencie added for generating random numbers.
 
 # Useful Websites
 
 {Make a list of websites that you found helpful in this project}
 
-- [Web Site Name](http://url.link.goes.here)
-- [Web Site Name](http://url.link.goes.here)
+- [Rust Documentation](https://doc.rust-lang.org/stable/rust-by-example/)
+- [StackOverflow](https://stackoverflow.com/)
+- [w3Schools](https://www.w3schools.io/languages/rust-tutorials/)
+- [GeeksforGeeks](https://www.geeksforgeeks.org/)
 
 # Future Work
 
 {Make a list of things that you need to fix, improve, and add in the future.}
 
-- Item 1
-- Item 2
-- Item 3
+- I want to make a GUI for input and output
+- I felt like the winner notification could be improved
+- Improving the opening input display would be great too
