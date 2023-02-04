@@ -40,7 +40,7 @@ impl GameObject {
 }
 
 impl GameObject {
-    //Function to setup new object
+    //Method to setup new object
     fn setup() -> GameObject {
         let high_number : i32 = GameObject::get_high_number();
         GameObject::create(high_number)
@@ -48,7 +48,7 @@ impl GameObject {
 }
 
 impl GameObject {
-    //Module to loop guesses for gameplay
+    //Method to loop guesses for gameplay
     fn loop_game_guesses(game:&mut GameObject) -> &mut GameObject {
         // If the user guesses correctly then the program will end.
         loop {
@@ -68,7 +68,7 @@ impl GameObject {
         return game;
     }
 
-    // Function to compare the guess and the secret number.
+    // Method to compare the guess and the secret number.
     // Gives a hint to the user of "Higher" or "Lower" depending on guess.
     fn compare_guess_and_secret(g:&i32, s:&i32) {
         if g < s {
@@ -98,6 +98,7 @@ impl GameObject {
 }
 
 impl GameObject {
+    // Method to show game stats when play finishes the game
     fn show_game_stats(game:&mut GameObject) {
         println!("You found the secret number in {} guesses.", game.guesses.len());
         println!("Guesses: {:?}", game.guesses);

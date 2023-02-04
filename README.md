@@ -6,9 +6,7 @@ The software I've written here is a small game of Guess a Number. After the user
 
 The purpose for this software is to use and display examples of variables, expressions, conditionals, loops, and functions in the Rust language. It should provide a simple example of how the language works and is displayed.
 
-{Provide a link to your YouTube demonstration. It should be a 4-5 minute demo of the software running and a walkthrough of the code. Focus should be on sharing what you learned about the language syntax.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/h3Qh3U5ELTk)
 
 # Development Environment
 
@@ -18,16 +16,12 @@ I used the Rust program with a rand dependencie added for generating random numb
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-
 - [Rust Documentation](https://doc.rust-lang.org/stable/rust-by-example/)
 - [StackOverflow](https://stackoverflow.com/)
 - [w3Schools](https://www.w3schools.io/languages/rust-tutorials/)
 - [GeeksforGeeks](https://www.geeksforgeeks.org/)
 
 # Future Work
-
-{Make a list of things that you need to fix, improve, and add in the future.}
 
 - I want to make a GUI for input and output
 - I felt like the winner notification could be improved
