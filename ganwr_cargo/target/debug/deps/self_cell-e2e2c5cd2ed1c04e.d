@@ -1,0 +1,6 @@
+C:\Quibly\School\Applied Programming\Sprint 2\guessANumberWithRust\ganwr_cargo\target\debug\deps\self_cell-e2e2c5cd2ed1c04e.rmeta: C:\Users\tripp\.cargo\registry\src\github.com-1ecc6299db9ec823\self_cell-0.10.2\src\lib.rs C:\Users\tripp\.cargo\registry\src\github.com-1ecc6299db9ec823\self_cell-0.10.2\src\unsafe_self_cell.rs
+
+C:\Quibly\School\Applied Programming\Sprint 2\guessANumberWithRust\ganwr_cargo\target\debug\deps\self_cell-e2e2c5cd2ed1c04e.d: C:\Users\tripp\.cargo\registry\src\github.com-1ecc6299db9ec823\self_cell-0.10.2\src\lib.rs C:\Users\tripp\.cargo\registry\src\github.com-1ecc6299db9ec823\self_cell-0.10.2\src\unsafe_self_cell.rs
+
+C:\Users\tripp\.cargo\registry\src\github.com-1ecc6299db9ec823\self_cell-0.10.2\src\lib.rs:
+C:\Users\tripp\.cargo\registry\src\github.com-1ecc6299db9ec823\self_cell-0.10.2\src\unsafe_self_cell.rs:

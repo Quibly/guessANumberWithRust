@@ -1,0 +1,11 @@
+C:\Quibly\School\Applied Programming\Sprint 2\guessANumberWithRust\ganwr_cargo\target\debug\deps\piet_direct2d-4efb5b4a2f108e9f.rmeta: C:\Users\tripp\.cargo\registry\src\github.com-1ecc6299db9ec823\piet-direct2d-0.6.2\src\lib.rs C:\Users\tripp\.cargo\registry\src\github.com-1ecc6299db9ec823\piet-direct2d-0.6.2\src\conv.rs C:\Users\tripp\.cargo\registry\src\github.com-1ecc6299db9ec823\piet-direct2d-0.6.2\src\d2d.rs C:\Users\tripp\.cargo\registry\src\github.com-1ecc6299db9ec823\piet-direct2d-0.6.2\src\d3d.rs C:\Users\tripp\.cargo\registry\src\github.com-1ecc6299db9ec823\piet-direct2d-0.6.2\src\dwrite.rs C:\Users\tripp\.cargo\registry\src\github.com-1ecc6299db9ec823\piet-direct2d-0.6.2\src\text.rs C:\Users\tripp\.cargo\registry\src\github.com-1ecc6299db9ec823\piet-direct2d-0.6.2\src\text\lines.rs
+
+C:\Quibly\School\Applied Programming\Sprint 2\guessANumberWithRust\ganwr_cargo\target\debug\deps\piet_direct2d-4efb5b4a2f108e9f.d: C:\Users\tripp\.cargo\registry\src\github.com-1ecc6299db9ec823\piet-direct2d-0.6.2\src\lib.rs C:\Users\tripp\.cargo\registry\src\github.com-1ecc6299db9ec823\piet-direct2d-0.6.2\src\conv.rs C:\Users\tripp\.cargo\registry\src\github.com-1ecc6299db9ec823\piet-direct2d-0.6.2\src\d2d.rs C:\Users\tripp\.cargo\registry\src\github.com-1ecc6299db9ec823\piet-direct2d-0.6.2\src\d3d.rs C:\Users\tripp\.cargo\registry\src\github.com-1ecc6299db9ec823\piet-direct2d-0.6.2\src\dwrite.rs C:\Users\tripp\.cargo\registry\src\github.com-1ecc6299db9ec823\piet-direct2d-0.6.2\src\text.rs C:\Users\tripp\.cargo\registry\src\github.com-1ecc6299db9ec823\piet-direct2d-0.6.2\src\text\lines.rs
+
+C:\Users\tripp\.cargo\registry\src\github.com-1ecc6299db9ec823\piet-direct2d-0.6.2\src\lib.rs:
+C:\Users\tripp\.cargo\registry\src\github.com-1ecc6299db9ec823\piet-direct2d-0.6.2\src\conv.rs:
+C:\Users\tripp\.cargo\registry\src\github.com-1ecc6299db9ec823\piet-direct2d-0.6.2\src\d2d.rs:
+C:\Users\tripp\.cargo\registry\src\github.com-1ecc6299db9ec823\piet-direct2d-0.6.2\src\d3d.rs:
+C:\Users\tripp\.cargo\registry\src\github.com-1ecc6299db9ec823\piet-direct2d-0.6.2\src\dwrite.rs:
+C:\Users\tripp\.cargo\registry\src\github.com-1ecc6299db9ec823\piet-direct2d-0.6.2\src\text.rs:
+C:\Users\tripp\.cargo\registry\src\github.com-1ecc6299db9ec823\piet-direct2d-0.6.2\src\text\lines.rs:
